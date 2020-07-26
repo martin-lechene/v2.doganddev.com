@@ -1,0 +1,127 @@
+.image-container {
+    /* The image used - important! */
+    background-size: cover;
+    position: relative;
+    /* Needed to position the cutout text in the middle of the image */
+    width: 100%;
+    height: 600px;
+    /* Some height */
+}
+
+.text {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(58, 57, 42);
+    color: #F8EFBA;
+    font-size: 5vw;
+    /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto;
+    /* Center the text container */
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    /* Center text */
+    position: absolute;
+    /* Position text */
+    top: 50%;
+    /* Position text in the middle */
+    left: 50%;
+    /* Position text in the middle */
+    transform: translate(-50%, -50%);
+    /* Position text in the middle */
+    mix-blend-mode: screen;
+    /* This makes the cutout text possible */
+}
+
+.part-left,
+.part-right {
+    padding: 1em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.part-left {
+    color: #F8EFBA;
+    background-color: black;
+    margin: 0;
+}
+
+.part-right {
+    color: black;
+    background-color: #F8EFBA;
+    margin: 0;
+    height: 100%;
+    text-align: left;
+}
+
+.part-left>h2 {
+    text-align: end;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.title-experience {
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 1.2em;
+}
+
+.company {
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.date {
+    color: #353b41;
+    display: block;
+    font-size: 0.8rem;
+    margin: 5px;
+}
+
+.be {
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.5172443977591037) 0%, rgba(255, 254, 0, 0.4948354341736695) 50%, rgba(255, 0, 0, 0.520045518207283) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.5172443977591037) 0%, rgba(255, 254, 0, 0.4948354341736695) 50%, rgba(255, 0, 0, 0.520045518207283) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5172443977591037) 0%, rgba(255, 254, 0, 0.4948354341736695) 50%, rgba(255, 0, 0, 0.520045518207283) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#ff0000", GradientType=1);
+}
+
+.eu {
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    background: rgb(0, 41, 255);
+    background: -moz-radial-gradient(circle, rgba(0, 41, 255, 0.5) 46%, rgba(255, 241, 0, 0.5032387955182073) 50%, rgba(1, 0, 255, 0.5) 54%);
+    background: -webkit-radial-gradient(circle, rgba(0, 41, 255, 0.5) 46%, rgba(255, 241, 0, 0.5032387955182073) 50%, rgba(1, 0, 255, 0.5) 54%);
+    background: radial-gradient(circle, rgba(0, 41, 255, 0.5) 46%, rgba(255, 241, 0, 0.5032387955182073) 50%, rgba(1, 0, 255, 0.5) 54%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0029ff", endColorstr="#0100ff", GradientType=1);
+}
+
+.fr {
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    background: rgb(0, 41, 255);
+    background: -moz-linear-gradient(90deg, rgba(0, 41, 255, 0.5) 0%, rgba(255, 255, 255, 0.5032387955182073) 30%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 0, 0, 0.5) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 41, 255, 0.5) 0%, rgba(255, 255, 255, 0.5032387955182073) 30%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 0, 0, 0.5) 100%);
+    background: linear-gradient(90deg, rgba(0, 41, 255, 0.5) 0%, rgba(255, 255, 255, 0.5032387955182073) 30%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 0, 0, 0.5) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0029ff", endColorstr="#ff0000", GradientType=1);
+}
+
+.lnr-chevron-down {
+    font-size: 3rem;
+    display: block;
+}
+
+.link {
+    color: #F8EFBA;
+}
+
+.link:hover {
+    color: #b3ad8c;
+}
+
+.skills {
+    margin-top: 20px;
+}
