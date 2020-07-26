@@ -369,6 +369,7 @@
         margin: 1rem;
         max-width: 300px;
         background-color: #f8efba;
+        scroll-behavior: smooth;
     }
     
     .subtitle {

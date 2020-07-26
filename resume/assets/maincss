@@ -1,0 +1,64 @@
+.image-container {
+    /* The image used - important! */
+    background-size: cover;
+    position: relative;
+    /* Needed to position the cutout text in the middle of the image */
+    width: 100%;
+    height: 400px;
+    /* Some height */
+}
+
+.text {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(58, 57, 42);
+    color: #F8EFBA;
+    font-size: 5vw;
+    /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto;
+    /* Center the text container */
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    /* Center text */
+    position: absolute;
+    /* Position text */
+    top: 50%;
+    /* Position text in the middle */
+    left: 50%;
+    /* Position text in the middle */
+    transform: translate(-50%, -50%);
+    /* Position text in the middle */
+    mix-blend-mode: screen;
+    /* This makes the cutout text possible */
+}
+
+.part-left,
+.part-right {
+    padding: 1em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.part-left {
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+
+.part-right {
+    color: black;
+    background-color: white;
+    margin: 0;
+    height: 100%;
+}
+
+.part-left>h2 {
+    text-align: end;
+}
+
+.list-group-item {
+    text-align: left;
+    padding: 0.2rem;
+}
