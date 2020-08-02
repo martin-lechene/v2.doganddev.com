@@ -429,3 +429,23 @@
     .list-group-flush>.list-group-item {
         border-width: 0;
     }
+    
+    .img-website {
+        filter: drop-shadow(0px 0px 1px rgb(15, 15, 15));
+    }
+    
+    .aff_website {
+        width: 100%;
+    }
+    
+    .url_website {
+        margin: 10PX;
+        padding: 20px;
+        background-color: #f8efba;
+        color: #2d3436;
+    }
+    
+    .url_website:hover {
+        background-color: #555;
+        color: #f8efba;
+    }
