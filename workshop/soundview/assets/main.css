@@ -269,6 +269,10 @@ h3 {
     }
 }
 
+h2 {
+    font-size: 3rem;
+}
+
 .body,
 .music-box {
     margin: 0 auto;
@@ -281,12 +285,12 @@ h3 {
     padding: 2.5rem;
     margin: 1rem 1rem;
     text-align: center;
-    background-color: teal;
-    color: violet;
+    background-color: grey;
+    color: rgb(46, 52, 58);
 }
 
 .drum:active,
 .drum:hover {
     background-color: tomato;
-    color: thistle;
+    color: rgb(46, 52, 58);
 }
