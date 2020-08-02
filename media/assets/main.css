@@ -446,8 +446,13 @@
         color: #2d3436;
     }
     
+    a:hover {
+        color: #555;
+    }
+    
     .tabs>li:hover,
-    .tabs>a:hover {
+    .tabs>a:hover+a:hover {
+        color: #555;
         background-color: #b3ad8c;
         color: #2d3436;
     }
