@@ -429,3 +429,33 @@
     .list-group-flush>.list-group-item {
         border-width: 0;
     }
+    
+    .portfolio {
+        display: contents;
+    }
+    
+    .tabs>li {
+        display: inline;
+        padding: 10px;
+        background-color: #f8efba;
+        color: black;
+    }
+    
+    a {
+        color: #2d3436;
+    }
+    
+    .tabs>li:hover,
+    .tabs>a:hover {
+        background-color: #b3ad8c;
+        color: #2d3436;
+    }
+    
+    .tabs {
+        display: inline;
+    }
+    
+    .space {
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
