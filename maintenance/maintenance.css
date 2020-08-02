@@ -68,3 +68,12 @@ a:hover {
         font-size: 0.7rem;
     }
 }
+
+.card-title {
+    margin-bottom: .75rem;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
