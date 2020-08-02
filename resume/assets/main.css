@@ -272,3 +272,8 @@ h3 {
 h2 {
     text-decoration: underline;
 }
+
+h5 {
+    font-size: x-large;
+    font-weight: bold;
+}
