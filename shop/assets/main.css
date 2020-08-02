@@ -1,6 +1,13 @@
 h1 {
     color: #f8efba;
+    font-size: 12rem;
+    margin: 1rem;
 }
 
+select {
+    max-width: 250px;
+}
 
+.filter-color {
+    filter: brightness(0.5);
 }
