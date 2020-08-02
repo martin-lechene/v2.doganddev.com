@@ -268,3 +268,7 @@ h3 {
         margin: 0 auto;
     }
 }
+
+h2 {
+    text-decoration: underline;
+}
