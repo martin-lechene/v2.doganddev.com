@@ -147,7 +147,7 @@ tr {
 h3 {
     padding: 30px;
     color: #F8EFBA;
-    background: linear-gradient(28deg, #222f3e, #576574);
+    background: linear-gradient(28deg, #222f3e, transparent);
     background-size: 400% 400%;
     -webkit-animation: AnnimationColor 0s ease infinite;
     -moz-animation: AnnimationColor 0s ease infinite;
