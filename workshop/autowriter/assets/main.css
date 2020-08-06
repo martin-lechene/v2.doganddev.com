@@ -1,0 +1,29 @@
+h1 {
+    color: #d2dae2;
+}
+
+.body {
+    background: #282a36;
+    color: #d2dae2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+
+#txt {
+    border-right: 0.15em solid #F8EFBA;
+    letter-spacing: 0.05em;
+    animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #F8EFBA;
+    }
+}
