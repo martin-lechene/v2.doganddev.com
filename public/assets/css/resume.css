@@ -145,13 +145,14 @@ tr {
 }
 
 h3 {
-    padding: 30px;
+    padding: 40px;
     color: #F8EFBA;
     background: linear-gradient(28deg, #222f3e, transparent);
     background-size: 400% 400%;
     -webkit-animation: AnnimationColor 0s ease infinite;
     -moz-animation: AnnimationColor 0s ease infinite;
     animation: AnnimationColor 0s ease infinite;
+    min-width: 200px;
 }
 
 @-webkit-keyframes AnnimationColor {
@@ -286,4 +287,22 @@ h2 {
 h5 {
     font-size: x-large;
     font-weight: bold;
+}
+
+.item {
+    max-width: 200px;
+    text-align: center;
+    display: inline-table;
+}
+
+strong {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+* {
+    text-transform: uppercase;
 }
