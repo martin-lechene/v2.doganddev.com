@@ -8,6 +8,8 @@
     <meta name="author" content="Martin Lechêne">
     <meta name="description" content="Martin Lechêne, web developper, webdesigner, freelancer.">
     <meta name="keywords" content="doganddev,martin lechene, web developper, webdesigner, freelancer">
+
+    <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/clients.css">
 
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
@@ -18,68 +20,29 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-                    <!-- Carousel Slides / Quotes -->
-                    <div class="carousel-inner text-center">
-                        <!-- Quote 1 -->
-                        <div class="item active">
-                            <blockquote>
-                                <div class="row">
-                                    <div class="col-sm-8 col-sm-offset-2">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
-                                        <small>Someone famous</small>
-                                    </div>
-                                </div>
-                            </blockquote>
-                        </div>
-                        <!-- Quote 2 -->
-                        <div class="item">
-                            <blockquote>
-                                <div class="row">
-                                    <div class="col-sm-8 col-sm-offset-2">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                                        <small>Someone famous</small>
-                                    </div>
-                                </div>
-                            </blockquote>
-                        </div>
-                        <!-- Quote 3 -->
-                        <div class="item">
-                            <blockquote>
-                                <div class="row">
-                                    <div class="col-sm-8 col-sm-offset-2">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
-                                        <small>Someone famous</small>
-                                    </div>
-                                </div>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <!-- Bottom Carousel Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="/assets/img/datawatch.png" alt="">
-                        </li>
-                        <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="/assets/img/datawatch.png" alt="">
-                        </li>
-                        <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="/assets/img/datawatch.png" alt="">
-                        </li>
-                    </ol>
-
-                    <!-- Carousel Buttons Next/Prev -->
-                    <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                    <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
-                </div>
+    <main class="app">
+        <div class="app-projects">
+            <div class="app-body-card">
+                <h1>Our clients</h1>
+                <section class="quotes">
+                    <div class="bubble">
+                        <blockquote>Nous avons confiance en lui depuis 2015. Et son travail et sa persévérance. Début difficile, mais très vite s'adapter aux charges de travail et améloire sa connaissance.
+                        </blockquote>
+                        <div></div>
+                        <cite>Quelprojet.</cite> </div>
+                    <div class="bubble">
+                        <blockquote> Rapide et d'une efficacité redoutable. Très joli travail de conception et d'imagination du site web. Est très bon quand il a un minimum de liberté créative, comme tout artiste.
+                        </blockquote>
+                        <div></div>
+                        <cite>Stéphane Pinot (PinguBKZ)
+            </cite> </div>
+                </section>
+                <a class="button return" href="#" onclick="goBack()"><span class="lnr lnr-arrow-left"></span>Retour</a>
             </div>
         </div>
-        <a class="btn btn-primary" href="http://thecodeblock.com/create-a-quote-testimonial-slider-using-bootstrap-carousel"><i class="fa fa-arrow-left"></i> Back to Article</a>
-    </div>
+    </main>
 </body>
+<script src="/assets/js/clients.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
