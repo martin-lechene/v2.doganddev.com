@@ -1,0 +1,21 @@
+{
+    "profile": "default",
+
+    "protocol": "ftp",
+    "host": "ftp.doganddev.com",
+    "port": 21,
+    "user": "dogandde",
+    "password": "+Emlm2C76Y2F@r",
+
+    "remotePath": "/public_html/story/",
+    "uploadOnSave": true,
+    "saveOnCheckIn": false,
+    "clearCacheOnCheckIn": false,
+
+    "ignore": [
+        "*/.DS_Store",
+        "*/.vscode/*",
+        "*/.git/*",
+        "*/*.LCK"
+    ]
+}
