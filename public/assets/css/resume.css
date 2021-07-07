@@ -1,0 +1,308 @@
+.image-container {
+    /* The image used - important! */
+    background-size: cover;
+    position: relative;
+    /* Needed to position the cutout text in the middle of the image */
+    width: 100%;
+    height: 600px;
+    /* Some height */
+}
+
+.text {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(58, 57, 42);
+    color: #F8EFBA;
+    font-size: 5vw;
+    /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto;
+    /* Center the text container */
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    /* Center text */
+    position: absolute;
+    /* Position text */
+    top: 50%;
+    /* Position text in the middle */
+    left: 50%;
+    /* Position text in the middle */
+    transform: translate(-50%, -50%);
+    /* Position text in the middle */
+    mix-blend-mode: screen;
+    /* This makes the cutout text possible */
+}
+
+.part-left,
+.part-right {
+    padding: 1em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.part-left {
+    color: #F8EFBA;
+    margin: 0;
+}
+
+.part-right {
+    color: black;
+    background-color: #F8EFBA;
+    margin: 0;
+    height: 100%;
+    text-align: left;
+}
+
+.part-left>h2 {
+    text-align: end;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.title-experience {
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 1.2em;
+}
+
+.company {
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.date {
+    color: #353b41;
+    display: block;
+    font-size: 0.8rem;
+    margin: 5px;
+}
+
+.be {
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.5172443977591037) 0%, rgba(255, 254, 0, 0.4948354341736695) 50%, rgba(255, 0, 0, 0.520045518207283) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.5172443977591037) 0%, rgba(255, 254, 0, 0.4948354341736695) 50%, rgba(255, 0, 0, 0.520045518207283) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5172443977591037) 0%, rgba(255, 254, 0, 0.4948354341736695) 50%, rgba(255, 0, 0, 0.520045518207283) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#ff0000", GradientType=1);
+}
+
+.eu {
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    background: rgb(0, 41, 255);
+    background: -moz-radial-gradient(circle, rgba(0, 41, 255, 0.5) 46%, rgba(255, 241, 0, 0.5032387955182073) 50%, rgba(1, 0, 255, 0.5) 54%);
+    background: -webkit-radial-gradient(circle, rgba(0, 41, 255, 0.5) 46%, rgba(255, 241, 0, 0.5032387955182073) 50%, rgba(1, 0, 255, 0.5) 54%);
+    background: radial-gradient(circle, rgba(0, 41, 255, 0.5) 46%, rgba(255, 241, 0, 0.5032387955182073) 50%, rgba(1, 0, 255, 0.5) 54%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0029ff", endColorstr="#0100ff", GradientType=1);
+}
+
+.fr {
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    background: rgb(0, 41, 255);
+    background: -moz-linear-gradient(90deg, rgba(0, 41, 255, 0.5) 0%, rgba(255, 255, 255, 0.5032387955182073) 30%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 0, 0, 0.5) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 41, 255, 0.5) 0%, rgba(255, 255, 255, 0.5032387955182073) 30%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 0, 0, 0.5) 100%);
+    background: linear-gradient(90deg, rgba(0, 41, 255, 0.5) 0%, rgba(255, 255, 255, 0.5032387955182073) 30%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 0, 0, 0.5) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0029ff", endColorstr="#ff0000", GradientType=1);
+}
+
+.lnr-chevron-down {
+    font-size: 3rem;
+    display: block;
+}
+
+.link {
+    color: #F8EFBA;
+}
+
+.link:hover {
+    color: #b3ad8c;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+table {
+    padding: 2rem;
+    margin: 2rem;
+    border: solid 1px cadetblue;
+}
+
+td {
+    color: coral;
+    padding: 10px 20px;
+    display: list-item;
+    max-width: 100%;
+    text-align: center;
+    min-width: 150px;
+}
+
+tr {
+    width: 800px;
+}
+
+h3 {
+    padding: 40px;
+    color: #F8EFBA;
+    background: linear-gradient(28deg, #222f3e, transparent);
+    background-size: 400% 400%;
+    -webkit-animation: AnnimationColor 0s ease infinite;
+    -moz-animation: AnnimationColor 0s ease infinite;
+    animation: AnnimationColor 0s ease infinite;
+    min-width: 200px;
+}
+
+@-webkit-keyframes AnnimationColor {
+    0% {
+        background-position: 94% 0%
+    }
+    50% {
+        background-position: 7% 100%
+    }
+    100% {
+        background-position: 94% 0%
+    }
+}
+
+@-moz-keyframes AnnimationColor {
+    0% {
+        background-position: 94% 0%
+    }
+    50% {
+        background-position: 7% 100%
+    }
+    100% {
+        background-position: 94% 0%
+    }
+}
+
+@keyframes AnnimationColor {
+    0% {
+        background-position: 94% 0%
+    }
+    50% {
+        background-position: 7% 100%
+    }
+    100% {
+        background-position: 94% 0%
+    }
+}
+
+.container {
+    padding: 20px;
+}
+
+.item {
+    margin: 20px 0;
+    color: #576574;
+}
+
+.item>h2 {
+    color: #7596B8;
+    font-weight: 700;
+    border-bottom: 5px solid #7596B8;
+    display: inline-block;
+    line-height: 40px;
+    margin-top: 28px;
+}
+
+.item>h3 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.item>h4 ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.item>h3,
+.item>h4 {
+    line-height: 15px;
+}
+
+.tiem>h5 {
+    font-size: 10px;
+    color: #7596B8;
+    margin-top: 0;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+@media (min-width: 645px) {
+    body,
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-size: 24px;
+    }
+    .part-left>h2 {
+        text-align: end;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .container {
+        width: 85%;
+        margin: 0 auto;
+    }
+    h5 {
+        font-size: 12px;
+    }
+    h3,
+    h4 {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 20px;
+    }
+    h4 ul {
+        margin-right: 48px;
+    }
+    h4 li {
+        padding: 0 0 12px 0;
+    }
+}
+
+@media (min-width: 820px) {
+    .container {
+        width: 820px;
+        margin: 0 auto;
+    }
+    .part-left>h2 {
+        text-align: end;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h5 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.item {
+    max-width: 200px;
+    text-align: center;
+    display: inline-table;
+}
+
+strong {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+* {
+    text-transform: uppercase;
+}

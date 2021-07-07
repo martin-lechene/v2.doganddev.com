@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.formBox {
+    margin-top: 90px;
+    padding: 50px;
+}
+
+.formBox h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+}
+
+.inputBox {
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.inputBox .inputText {
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    line-height: 50px;
+    transition: .5s;
+    opacity: .5;
+}
+
+.inputBox .input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    color: #fff;
+}
+
+.focus .inputText {
+    transform: translateY(-30px);
+    font-size: 18px;
+    opacity: 1;
+    color: #00bcd4;
+}
+
+textarea {
+    height: 100px !important;
+}
+
+.button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #03A9F4;
+    color: #fff;
+    margin: 15px;
+}
+
+.button:hover {
+    color: grey;
+    background: #266c8d;
+}
+
+.return {
+    padding: 10px;
+    background-color: maroon;
+    text-align: center;
+    flex: inherit;
+    color: white;
+}
+
+.return:hover {
+    color: grey;
+    background-color: rgb(66, 19, 19);
+}
+
+.return:hover .lnr {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.lnr {
+    font-size: unset;
+    text-align: center;
+    margin-right: 10px;
+}
